@@ -1,0 +1,19 @@
+{
+    "stages": {
+        "dev": {
+            "autogen_policy": true,
+            "api_gateway_stage": "api"
+        }
+    },
+    "environment_variables": {
+        "SLACK_VERIFICATION_TOKEN": "YOUR_SLACK_VERIFICATION_TOKEN",
+        "SLACK_TOKEN": "YOUR_SLACK_TOKEN",
+        "YANDEX_API_KEY": "YOUR_YANDEX_API_KEY",
+        "SNS_TOPIC_ARN": "YOUR_SNS_TOPIC_ARN",
+        "SNS_SUBJECT": "slack event data"
+    },
+    "lambda_timeout": 180,
+    "lambda_memory_size": 128,
+    "version": "2.0",
+    "app_name": "reacjilator"
+}
